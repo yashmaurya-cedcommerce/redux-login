@@ -2,37 +2,146 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.loginContainer {
+  width: 80%;
+  margin: auto;
+  padding: 5% 0%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.loginHeading {
+  font-size: 4vw;
+  margin: 0% 0%;
+  padding: 3% 2%;
+  text-align: start;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.loginForm {
+  background-color: white;
+  border: 1px solid #dfe5f8;
+  padding: 2% 0%;
+}
+
+.inputDiv {
+  width: 75%;
+  margin: auto;
+  padding: 1% 0%;
+  text-align: start;
+}
+
+.inputLabel {
+  width: 100%;
+  font-size: 1.6vw;
+  text-align: start;
+  margin: 2% 0%;
+}
+
+.inputDiv input {
+  width: 97%;
+  font-size: 1.4vw;
+  padding: 2% 1%;
+  background-color: #e9eeff;
+  border: 1px solid #dfe5f8;
+  border-radius: 4px;
+}
+
+.inputDescription {
+  font-size: 1.4vw;
+  opacity: 75%;
+  margin: 1% 0%;
+}
+
+.mySessionToken {
+  font-size: 1.3vw;
+}
+
+.errorMsg {
+  font-size: 1.8vw;
+  color: red;
+  font-weight: bolder;
+}
+
+.buttonDiv {
+  width: 75%;
+  margin: auto;
+  padding: 0% 0% 3% 0%;
+  text-align: start;
+}
+
+.submitBtn {
+  font-size: 1.4vw;
+  font-weight: bolder;
+  border: none;
+  border-radius: 4px;
+  padding: 2% 0%;
+  width: 20.5%;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  border: 1px solid #dfe5f8;
+}
+
+.homeContainer {
+  width: 100%;
+}
+
+.navbarContainer {
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+  background-color: rgb(45, 191, 240);
   color: white;
+  padding: 1% 2%;
 }
 
-.App-link {
-  color: #61dafb;
+.logoContainer {
+  width: 5%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logoImage {
+  width: 100%;
+}
+
+.userDetailContainer {
+  width: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.userImageContainer {
+  width: 30%;
+  cursor: pointer;
+}
+
+.userImageContainer img {
+  width: 100%;
+  height: max-content;
+}
+
+.userDetailTextContainer {
+  width: 50%;
+  padding: 5% 0%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navName {
+  font-size: 1.4vw;
+  margin: 0% 0%;
+  font-weight: bolder;
+}
+
+.navUserName {
+  font-size: 1.1vw;
+  margin: 0% 0%;
+  font-weight: bolder;
+}
+
+.signOutDiv
+{
+  width: 50%;
+  padding: 15% 0%;
+  cursor: pointer;
+}
+
+.signOutDiv p
+{
+  font-size: 2vw;
 }
